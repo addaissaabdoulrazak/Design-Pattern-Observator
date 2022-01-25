@@ -28,7 +28,7 @@ public class ObservableImplementation implements IObservable{
     }
 
     @Override
-    public void desabonnement(observer.IObserver o) {
+    public void desabonnement(POPmethod.IObserver o) {
              this.observateurs.remove(o);
     }
     
@@ -52,7 +52,7 @@ public class ObservableImplementation implements IObservable{
     }
 
     @Override
-    public void abonnement(observer.IObserver o) {
+    public void abonnement(POPmethod.IObserver o) {
  //on fait appele a la methode Add de ArrayList Comme que Observateurs est une variable de type ArrayList
     this.observateurs.add((IObserver) o);
     }

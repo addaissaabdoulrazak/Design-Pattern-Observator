@@ -5,7 +5,7 @@
  */
 package observer.Observable;
 
-import observer.IObserver;
+import POPmethod.IObserver;
 
 /**
  *

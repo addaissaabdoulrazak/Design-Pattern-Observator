@@ -24,7 +24,7 @@ public class Client {
         
         observable.abonnement(o1);
         observable.setState(55);
-        observable.desabonnement((observer.IObserver) o1);
+        observable.desabonnement((POPmethod.IObserver) o1);
         observable.setState(10);
         System.out.println("----------------------Création d'un Observateur annonyme une Fois Creer nous allons L'ajouter a la liste d'bjet contenue dans ''observable'' de Manière Direct ------------------------------");     
         System.out.println();

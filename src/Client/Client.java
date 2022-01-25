@@ -5,11 +5,11 @@
  */
 package Client;
 import java.util.Observer;
-import observer.IObserver;
+import POPmethod.IObserver;
 import observer.Observable.IObservable;
 import observer.Observable.ObservableImplementation;
-import observer.ObserverImplementation1;
-import observer.ObserverImplementation2;
+import POPmethod.ObserverImplementation1;
+import POPmethod.ObserverImplementation2;
 /**
  *
  * @author USER-PC

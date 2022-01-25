@@ -6,7 +6,7 @@
 package MethodesPush;
 
 import observer.Observable.*;
-import observer.IObserver;
+import POPmethod.IObserver;
 
 /**
  *

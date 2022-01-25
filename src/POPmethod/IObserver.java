@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package observer;
+package POPmethod;
 
 import observer.Observable.IObservable;
 
@@ -15,7 +15,8 @@ import observer.Observable.IObservable;
 
 public interface IObserver {
     
-    public void mis_A_Jour(IObservable observable);//effectuer une mis a jours tous en recevant la referance de l'objet qui la Notifier
+ // Using the POP Method : perform an Update all by receving the referance of the Objet that notifiies it(IObservable)  
+    public void mis_A_Jour(IObservable observable);
 
 
 }

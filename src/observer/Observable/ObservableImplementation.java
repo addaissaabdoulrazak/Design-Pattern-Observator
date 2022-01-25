@@ -8,7 +8,7 @@ package observer.Observable;
 import observer.Observable.IObservable;
 import java.util.ArrayList;
 import java.util.List;
-import observer.IObserver;
+import POPmethod.IObserver;
 
 /**
  *

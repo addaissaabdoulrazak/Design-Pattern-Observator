@@ -5,7 +5,6 @@
  */
 package MethodesPush;
 
-import observer.*;
 import observer.Observable.IObservable;
 import observer.Observable.ObservableImplementation;
 /**

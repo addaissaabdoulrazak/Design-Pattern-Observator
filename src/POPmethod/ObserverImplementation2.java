@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package observer;
+package POPmethod;
 
 import observer.Observable.IObservable;
 import observer.Observable.ObservableImplementation;

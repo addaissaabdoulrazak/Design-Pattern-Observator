@@ -5,7 +5,6 @@
  */
 package MethodesPush;
 
-import observer.*;
 import observer.Observable.IObservable;
 
 /**
@@ -15,6 +14,6 @@ import observer.Observable.IObservable;
 //Cette Interface Reçoit generalement une Seul Methodes
 
 public interface IObserver {
-  //Use Methode PUSH  
+  //Using the   PUSH  Method
     public void mis_A_Jour(int State);
 }
